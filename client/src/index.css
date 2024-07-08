@@ -1,0 +1,62 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.register-page{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height: 100vh;
+  
+}
+.page{
+  border: 2px solid rgb(75, 70, 70);
+  padding: 30px;
+  box-shadow: 0 0 25px rgb(97, 91, 120);
+  background-color: white;
+
+}
+.content{
+  height: 75vh;
+}
+
+.btn-pink {
+  background-color: #f95dab; 
+  color: white;
+  border: none;
+}
+
+.btn-pink:hover {
+  background-color: #ff1493; /* Darker pink for hover effect */
+  color: white;
+}
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0 0 3px gray;
+}
+.switch-icons{
+  box-shadow: 0 0 5px black;
+  border-radius: 5px rgba(0,0,0,0.67);
+  padding: 5px 15px;
+}
+
+.anticon svg{
+  font-size: 20px;
+  padding: 2px;
+  cursor: pointer;
+}
+.active-icon{
+  color: black;
+}
+.inactive-icon{
+  color: gray;
+}
